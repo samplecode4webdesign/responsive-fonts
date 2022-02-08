@@ -1,0 +1,62 @@
+
+.page_title{
+		text-align:center;
+			color: darkblue;
+				font-size: 2.5rem;
+					font-family:Arial, sans-serif;
+						padding-top: 0.5rem;
+							padding-bottom: 0.5rem;
+								background: lightgray;
+}
+
+
+
+/* These classes are for different units of unspecified value */
+.viewport_units{font-size:3vw;
+}
+.rem_units{font-size:1rem;
+}
+.using_clamp{
+	font-size: clamp(1rem,2vw,3rem);
+}
+
+/* These classes specify different values in pixels */
+.sixteenpixels{font-size:16px;}
+
+.sixteen_point_eight_px{font-size:16.8px;}
+.fifty_point_four_px{font-size:50.4px;}
+
+/* These classes specify different values in rem */
+.one_rem{font-size:1rem;
+}
+.one_pt_0_5_rem{font-size:1.05rem;
+}
+.two_rem{font-size:2rem;
+}
+.three_rem{font-size:3rem;
+}
+
+/* These classes specify different values in vw */
+.one_vw{font-size:1vw;
+}
+.two_vw{font-size:2vw;
+}
+.three_vw{font-size:3vw;
+}
+
+
+/* These classes specify clamp functions with different values in them */
+/* all (rem, vw, rem) */
+
+
+.using_clamp_123{
+	font-size: clamp(1rem,2vw,3rem);
+}
+.using_clamp_132{
+	font-size: clamp(1rem,3vw,2rem);
+}
+.using_clamp_258{
+	font-size: clamp(2rem,5vw,8rem);
+}
+
+

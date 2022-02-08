@@ -1,0 +1,53 @@
+.page_title{
+		text-align:center;
+			color: darkblue;
+				font-size: 2.5rem;
+					font-family:Arial, sans-serif;
+						padding-top: 0.5rem;
+							padding-bottom: 0.5rem;
+								background: lightgray;
+}
+
+.in_px{font-size:60px;
+}
+
+
+.in_rem{font-size:3rem;
+}
+
+
+.in_vw{font-size:3vw;
+}
+
+@media (max-width: 1120px){ 
+body{
+background-color:lightblue;
+}
+
+.in_px{font-size:40px;
+}
+
+
+.in_rem{font-size:2rem;
+}
+
+
+.in_vw{font-size:3vw;
+}
+}
+
+@media (max-width: 700px){ 
+body{
+background-color:lightgreen;
+}
+.in_px{font-size:20px;
+}
+
+
+.in_rem{font-size:1.5rem;
+}
+
+
+.in_vw{font-size:3vw;
+}
+}
